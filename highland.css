@@ -1,0 +1,205 @@
+body {
+    margin:0;
+    font-family: Caladea;
+}
+nav {
+    background-color: #B22830;
+
+}
+.logo  {
+display: inline-block;
+width: 20%;
+float: left;
+}
+.logo img {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.search {
+display: inline-block;
+width: 80%;
+float: right;
+margin-top: 30px;
+margin-bottom: 20px;
+
+}
+.search input{  
+    padding: 8px;
+    width: 123%;
+    border: none;
+}
+.search .div_search { 
+    margin-left: 60%;
+    position: relative;
+    display: inline-block;
+    padding: 0;
+    float: left;
+
+}
+.div_co {
+    display: inline-block;
+    float: right;
+    margin-right: 6%;
+}
+.co {
+    margin-left: 5px;
+    height: 28px;
+    width: auto;
+    
+}
+
+.search .search_icon{
+    top:6px;
+    right:-47px;
+    width: 18px;
+    height: auto;
+    position: absolute;
+}
+.list {
+    color:white;
+    margin-top: 5px;
+    font-weight: 100;
+}
+.list ul {
+    list-style-type: none;
+    display: inline-block;
+}
+.list li {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 115%;
+}
+
+.list a {
+    text-decoration: none;
+    display: inline-block;
+    color:white;
+    padding: 20px;
+
+
+}
+/* .list a:hover {
+    text-decoration: none;
+    color: white;
+} */
+.list li:hover {
+    background-color: #53382C;
+}
+.list_li:hover .an {
+display: block;
+}
+.an {
+    position: absolute;
+    display: none;
+    width: 100%;
+    background-color:#53382C ;
+    right:0;
+}
+.list_ul {
+    margin: 0;
+    padding: 0;
+}
+header {
+    position: relative;
+}
+ .an li {
+    display: block !important;
+    
+}
+.thucdon .col-2 {
+    display: inline-block;
+    width: 15.5%;
+    margin-top: 0;
+    float: left;
+    text-align: center;
+}
+.thucdon .caphe{
+    margin-left: 3%;
+}
+.thucdon .col-2 ul {
+    padding: 0;
+    width: 100%;
+}
+.thucdon .col-2 ul li a {
+    padding: 5px !important;
+}
+.thucdon .col-2 ul li h4 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding: 5px;
+   
+}
+.thucdon .col-2 ul li{
+    position: relative;
+}
+.an h4 a {
+    font-weight: 900 !important;
+    color:#f1bc7a !important;
+}
+.an h4:hover a {
+    color: white !important;
+}
+.an .col-2 ul a {
+    font-weight: 100;
+    font-size: large;
+}
+.an .gt  {
+background-image: url('https://www.highlandscoffee.com.vn/skins/default/images/bgmenu.jpg');
+text-align: left;
+margin-right: 20%;
+margin-top:10% ;
+margin-bottom: 15px;
+
+}
+.an .gt a {
+    font-size: 130% !important;
+    color: #f1bc7a;
+}
+.an .gt a:hover {
+    color: white;
+}
+.anhcafe a {
+    padding: 0;
+}
+.anhcafe img {
+    text-align: center;
+    width: 110%;
+    margin-left: 12%;
+    margin-bottom: 7%;}
+.thucdon .div_thucdon {
+    margin-left: 10%;
+    display: block;
+}
+
+.an .col-2 ul li:hover i {
+    display: inline-block;
+    top: 2px;
+    font-size: 80%;
+}
+.an .col-2 ul li i {
+    display: none;
+    float: left;
+    margin-top: 7px;
+    font-size: 72%;  
+    /* position: absolute; */
+}
+.an .col-3 {
+    display: inline-block;
+    width: 17%;
+    margin-top: 0;
+    float: left;
+    text-align: center;
+}
+.an .tintuc {
+    float: right  !important;
+    margin-right: 5%;
+}
+.sukien { 
+    margin-left: 5%;
+}
+.anhtuhao img {
+    width: 100%;
+}
+.tintuc .anh {
+    margin-right: 10% !important;
+}
