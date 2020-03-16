@@ -1,205 +1,784 @@
 body {
-    margin:0;
-    font-family: Caladea;
+  margin: 0;
+  font-family: Caladea;
+  position: relative;
 }
 nav {
-    background-color: #B22830;
-
+  background-color: #b22830;
 }
-.logo  {
-display: inline-block;
-width: 20%;
-float: left;
+header {
+  position: relative;
+}
+.logo {
+  display: inline-block;
+  width: 20%;
+  float: left;
 }
 .logo img {
-    margin-left: 50px;
-    margin-top: 20px;
+  margin-left: 26%;
+  margin-top: 8%;
 }
 .search {
-display: inline-block;
-width: 80%;
-float: right;
-margin-top: 30px;
-margin-bottom: 20px;
-
+  display: inline-block;
+  width: 80%;
+  float: right;
+  margin-top: 30px;
+  margin-bottom: 17px;
 }
-.search input{  
-    padding: 8px;
-    width: 123%;
-    border: none;
+.search input {
+  padding: 8px;
+  width: 123%;
+  border: none;
 }
-.search .div_search { 
-    margin-left: 60%;
-    position: relative;
-    display: inline-block;
-    padding: 0;
-    float: left;
-
+.search .div_search {
+  margin-left: 60%;
+  position: relative;
+  display: inline-block;
+  padding: 0;
+  float: left;
 }
 .div_co {
-    display: inline-block;
-    float: right;
-    margin-right: 6%;
+  display: inline-block;
+  float: right;
+  margin-right: 6%;
 }
 .co {
-    margin-left: 5px;
-    height: 28px;
-    width: auto;
-    
+  margin-left: 5px;
+  height: 28px;
+  width: auto;
 }
 
-.search .search_icon{
-    top:6px;
-    right:-47px;
-    width: 18px;
-    height: auto;
-    position: absolute;
+.search .search_icon {
+  top: 6px;
+  right: -47px;
+  width: 18px;
+  height: auto;
+  position: absolute;
 }
 .list {
-    color:white;
-    margin-top: 5px;
-    font-weight: 100;
+  color: white;
+  margin-top: 5px;
+  font-weight: 100;
+  position: relative;
 }
 .list ul {
-    list-style-type: none;
-    display: inline-block;
+  list-style-type: none;
+  display: inline-block;
 }
 .list li {
-    display: inline-block;
-    font-weight: 600;
-    font-size: 115%;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 115%;
 }
 
 .list a {
-    text-decoration: none;
-    display: inline-block;
-    color:white;
-    padding: 20px;
-
-
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 11px 20px;
 }
 /* .list a:hover {
     text-decoration: none;
     color: white;
 } */
 .list li:hover {
-    background-color: #53382C;
+  background-color: #53382c;
 }
 .list_li:hover .an {
-display: block;
+  display: block;
 }
 .an {
-    position: absolute;
-    display: none;
-    width: 100%;
-    background-color:#53382C ;
-    right:0;
+  position: absolute;
+  display: none;
+  width: 100%;
+  background-color: #53382c;
+  z-index: 9999;
+  right: 0;
 }
 .list_ul {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 header {
-    position: relative;
+  position: relative;
 }
- .an li {
-    display: block !important;
-    
+.an li {
+  display: block !important;
 }
 .thucdon .col-2 {
-    display: inline-block;
-    width: 15.5%;
-    margin-top: 0;
-    float: left;
-    text-align: center;
+  display: inline-block;
+  width: 15.5%;
+  margin-top: 0;
+  float: left;
+  text-align: center;
 }
-.thucdon .caphe{
-    margin-left: 3%;
+.thucdon .caphe {
+  margin-left: 3%;
 }
 .thucdon .col-2 ul {
-    padding: 0;
-    width: 100%;
+  padding: 0;
+  width: 100%;
 }
-.thucdon .col-2 ul li a {
-    padding: 5px !important;
+.an .col-2 ul li a {
+  padding: 5px !important;
 }
-.thucdon .col-2 ul li h4 {
-    margin-top: 10px;
-    margin-bottom: 0;
-    padding: 5px;
-   
+.an .col-2 ul li h4 {
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding: 5px;
 }
-.thucdon .col-2 ul li{
-    position: relative;
+.thucdon .col-2 ul li {
+  position: relative;
 }
 .an h4 a {
-    font-weight: 900 !important;
-    color:#f1bc7a !important;
+  font-weight: 900 !important;
+  color: #f1bc7a !important;
 }
 .an h4:hover a {
-    color: white !important;
+  color: white !important;
 }
 .an .col-2 ul a {
-    font-weight: 100;
-    font-size: large;
+  font-weight: 100;
+  font-size: large;
 }
-.an .gt  {
-background-image: url('https://www.highlandscoffee.com.vn/skins/default/images/bgmenu.jpg');
-text-align: left;
-margin-right: 20%;
-margin-top:10% ;
-margin-bottom: 15px;
-
+.an .gt {
+  background-image: url("https://www.highlandscoffee.com.vn/skins/default/images/bgmenu.jpg");
+  text-align: left;
+  margin-right: 20%;
+  margin-top: 10%;
+  margin-bottom: 15px;
 }
 .an .gt a {
-    font-size: 130% !important;
-    color: #f1bc7a;
+  font-size: 130% !important;
+  color: #f1bc7a;
 }
 .an .gt a:hover {
-    color: white;
+  color: white;
 }
 .anhcafe a {
-    padding: 0;
+  padding: 0;
 }
 .anhcafe img {
-    text-align: center;
-    width: 110%;
-    margin-left: 12%;
-    margin-bottom: 7%;}
+  text-align: center;
+  width: 110%;
+  margin-left: 12%;
+  margin-bottom: 7%;
+}
 .thucdon .div_thucdon {
-    margin-left: 10%;
-    display: block;
+  margin-left: 10%;
+  display: block;
 }
 
 .an .col-2 ul li:hover i {
-    display: inline-block;
-    top: 2px;
-    font-size: 80%;
+  display: inline-block;
+  top: 2px;
+  font-size: 80%;
 }
 .an .col-2 ul li i {
-    display: none;
-    float: left;
-    margin-top: 7px;
-    font-size: 72%;  
-    /* position: absolute; */
+  display: none;
+  float: left;
+  margin-top: 7px;
+  font-size: 72%;
+  /* position: absolute; */
 }
 .an .col-3 {
-    display: inline-block;
-    width: 17%;
-    margin-top: 0;
-    float: left;
-    text-align: center;
+  display: inline-block;
+  width: 17%;
+  margin-top: 0;
+  float: left;
+  text-align: center;
 }
 .an .tintuc {
-    float: right  !important;
-    margin-right: 5%;
+  float: right !important;
+  margin-right: 5%;
 }
-.sukien { 
-    margin-left: 5%;
+.sukien {
+  margin-left: 3%;
 }
 .anhtuhao img {
-    width: 100%;
+  width: 100%;
 }
 .tintuc .anh {
-    margin-right: 10% !important;
+  margin-right: 10% !important;
+}
+.giatri {
+  width: 18% !important;
+}
+.col-3 ul {
+  width: 100%;
+}
+.col-3 h4 a {
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 20px !important;
+}
+.col-3 h4 {
+  margin: 0;
+}
+.anh img {
+  width: 100%;
+  margin: 0;
+  display: block;
+}
+.anh {
+  position: relative;
+}
+.anh button {
+  position: absolute;
+  bottom: 14%;
+  right: 23%;
+  background: none;
+  color: #f2bc7b;
+  border: 0.5px solid #f2bc7b;
+  padding: 12px 63px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.anh2 button {
+  left: 23% !important;
+  color: #426719 !important;
+  border: 0.5px solid #426719 !important;
+}
+.anh3 button {
+  color: #b02b2e;
+  border: 0.5px solid #b02b2e !important;
+}
+/* Giới thiệu */
+.gioithieu {
+  width: 50%;
+  display: inline-block;
+  margin: 0;
+}
+.gioithieu a {
+  text-decoration: none;
+}
+.gioithieu a img {
+  width: 119%;
+  height: auto;
+}
+/* quán mới */
+.gt1 {
+  background-image: url("https://www.highlandscoffee.com.vn/vnt_upload/weblink/homepage-STORE_1.jpg");
+  color: white;
+  height: auto;
+  float: left;
+}
+.gt1 a {
+  color: white;
+}
+.gt1 a:hover {
+  color: #f1bc7a;
+}
+.gt1 h2 {
+  font-size: 176%;
+  margin-top: 9%;
+  margin-left: 8%;
+}
+.gt1 div {
+  float: right;
+  margin-left: 55.5%;
+  margin-top: -2.5%;
+  margin-right: 5%;
+  margin-bottom: 26%;
+}
+.quan {
+  display: block;
+  margin: 0;
+}
+.gt1 h3 {
+  font-size: 140%;
+  margin-bottom: -3%;
+}
+.gt1 h4 {
+  font-size: 106%;
+}
+.gt1 h5 {
+  font-size: 108%;
+  margin-top: -3%;
+}
+/* tin mới nhất */
+.gt2 {
+  background-image: url("https://www.highlandscoffee.com.vn/vnt_upload/weblink/bg2.jpg");
+}
+.tinmoi {
+  margin-left: 17.5%;
+  margin-right: 8%;
+}
+.tinmoi h2 {
+  font-size: 195%;
+  margin-bottom: 2.5%;
+  margin-top: 11.5%;
+  display: inline-block;
+}
+.tinmoi .tinmoi1 {
+  width: 20%;
+  /* margin: 0 !important; */
+  display: inline-block;
+  float: left;
+}
+.tin {
+  height: 90px;
+}
+.tinmoi2 {
+  margin-left: 27%;
+}
+.tinmoi2 a {
+  color: black;
+  font-weight: 700;
+}
+.tinmoi .xemtb {
+  color: black;
+  display: inline-block;
+  margin-left: 37%;
+  text-decoration: underline !important;
+}
+.tinmoi a:hover {
+  color: #c16066;
+}
+.tinmoi input {
+  width: 70%;
+  padding: 0px 7px;
+  height: 36px;
+  border: none;
+}
+.tinmoi2 p {
+  margin: 3% 0;
+}
+.tinmoi button {
+  width: 27%;
+  height: 36px;
+  background-color: #53382c;
+  color: white;
+  margin-bottom: 9%;
+  border: none;
+}
+.tin i {
+  margin-right: 8px;
+}
+.tinmoi button:hover {
+  background-color: #b22931;
+}
+/* footer */
+footer {
+  background-color: #53382c;
+  float: left;
+  width: 100%;
+}
+footer div {
+  width: 100%;
+}
+footer ul {
+  list-style: none;
+}
+footer li {
+  display: inline-block;
+}
+footer ul li ul li a {
+  margin-right: 2px;
+  padding: 2px 5px;
+  font-size: 115%;
+  background-color: white;
+  color: #53382c;
+}
+footer ul li ul li a:hover li {
+  color: blue;
+  padding: 20px;
+}
+.tt {
+  margin-left: 1%;
+  margin-right: 1%;
+  color: white;
+}
+.tt a {
+  color: white;
+  text-decoration: none;
+}
+pre {
+  display: inline-block;
+}
+footer button,
+footer .btnlen {
+  display: block;
+  position: fixed;
+  z-index: 999;
+  border: none;
+}
+.btnlen {
+  font-size: 155%;
+  border-radius: 45px;
+  padding: 15px;
+  border: 0.5px solid #878787;
+  color: #878787;
+  background-color: white;
+  bottom: 26%;
+  right: 3%;
+  /* width: 2%; */
+}
+.btnthu {
+  border-radius: 50px;
+  font-size: 186%;
+  right: 3%;
+  padding: 17px;
+  background-color: #b22830;
+  color: white;
+  bottom: 7%;
+}
+.tt a:hover {
+  color: #d8772c;
+}
+/* 
+ TRANG SẢN PHẨM
+ */
+.sp-content {
+  float: left;
+}
+.sp-caphe {
+  background-image: url("https://www.highlandscoffee.com.vn/vnt_upload/product/04_2018/menu-PSD-bg.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: 120%;
+  background-position-x: 67%;
+  float: left;
+}
+
+.sp-caphe a {
+  color: #f9ead6;
+  text-decoration: none;
+  font-size: 140%;
+}
+.sp-caphe h1 {
+  display: inline-block;
+  margin-left: 13.5%;
+  margin-top: 8%;
+  font-size: 232%;
+}
+.sp-caphe h6 {
+  color: #f9ead6;
+  display: block;
+  font-size: 127%;
+  margin-top: -1.5%;
+  margin-left: 13%;
+}
+.sp-caphe div {
+  width: 50%;
+  display: inline-block;
+  float: left;
+}
+.sp-caphe img {
+  margin-left: 22%;
+  margin-top: 2.5%;
+  display: block;
+  width: 65%;
+}
+.sp-caphe button {
+  margin-left: 13%;
+  margin-top: 1%;
+  width: 41%;
+  font-size: 101%;
+  padding: 9px 0;
+  background-color: none;
+  background: none;
+  color: #f9ead6;
+  border-radius: 5px;
+  border: 0.5px solid #f9ead6;
+}
+.sp-caphe1 {
+  background-image: url("https://www.highlandscoffee.com.vn/vnt_upload/product/04_2018/menu-FREEZE.jpg") !important;
+  text-align: right;
+}
+.sp-caphe1 div,
+.sp-caphe3 div {
+  float: right;
+}
+.sp-caphe1 div a,
+.sp-caphe1 div h6,
+.sp-caphe1 div button,
+.sp-caphe1 div h1 {
+  color: #016501 !important;
+  margin-right: 13.5%;
+  margin-left: 0%;
+}
+.sp-caphe1 button {
+  border: 0.5px solid #016501;
+}
+.sp-caphe1 div img {
+  margin-top: -3.5%;
+  width: 63%;
+  margin-left: 14%;
+}
+
+.sp-caphe2 {
+  background-image: url("https://www.highlandscoffee.com.vn/vnt_upload/product/04_2018/menu-TEA-bg.jpg");
+}
+
+.sp-caphe2 div img {
+  margin-top: -3%;
+  width: 65%;
+  margin-left: 22%;
+}
+.sp-caphe3 {
+  background-image: url("https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/menu-BANHMI-bg_2.jpg");
+  text-align: right;
+}
+.sp-caphe3 div h1,
+.sp-caphe3 div h6,
+.sp-caphe3 div button {
+  margin-right: 13.5%;
+  margin-left: 0%;
+}
+.sp-caphe3 div img {
+  margin-left: 13%;
+  width: 87%;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+.sp-caphe a:hover {
+  color: #b12830 !important;
+}
+
+/* 
+TIN TỨC
+*/
+.tt-col4 {
+  width: 30.4%;
+  display: inline-block;
+  float: left;
+  margin: 0 16px;
+}
+.tt-tintuc {
+  float: left;
+  margin-left: 5.5%;
+  width: 90%;
+  margin-bottom: 6%;
+}
+.tt-tintuc img {
+  width: 100%;
+}
+.tt-tintuc h1 {
+  margin-top: 4%;
+  font-size: 304%;
+  font-weight: 900;
+  margin-bottom: 1.5%;
+  margin-left: 15px;
+}
+.tt-col4 div {
+  margin-bottom: 7px;
+}
+.tt-col4 a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+.tt-col4 a:hover {
+  color: #b22830;
+}
+
+.tt-col4 i {
+  margin-right: 8px;
+}
+.tt-a {
+  height: 36px;
+}
+.tt-col4 p {
+  margin-bottom: 27px;
+}
+.tt-tintuc button {
+  background: none;
+  border: 0.5px solid #b22830;
+  margin-left: 39%;
+  width: 21%;
+  font-size: 102%;
+  padding: 11px 0;
+  border-radius: 5px;
+  color: #b22830;
+  margin-top: 4px;
+}
+.tt-tintuc button:hover {
+  background-color: #b22830;
+  color: white;
+}
+.tt-img:hover img {
+  transform: scale(1.1, 1.1);
+  transition: ease-in-out 1s;
+}
+.tt-img {
+  overflow: hidden;
+  height: 250px;
+}
+/* 
+LIÊN HỆ 
+ */
+.lh-form {
+  margin-left: 6.5%;
+}
+.lh-form h1 {
+  font-size: 321%;
+  margin-top: 3.5%;
+  color: #53382c;
+}
+.lh-form h3 {
+  margin-top: -2%;
+  font-size: 141%;
+}
+.lh-form label {
+  display: block;
+  font-weight: bolder;
+  color: #53382c;
+  margin-bottom: 5px;
+}
+#hoten,
+#email,
+#mabaove,
+#noidung {
+  width: 40%;
+  padding: 12px 31px;
+  border-radius: 5px;
+  margin-bottom: 1.5%;
+  background-color: #f2f5f8;
+  border: 1px solid #dbdcdd;
+}
+#mabaove {
+  width: 30.5%;
+  margin-bottom: 0 !important;
+  float: left;
+  margin-right: 1.5%;
+}
+#noidung {
+  padding-bottom: 0 !important;
+  margin-bottom: 1%;
+}
+.lh-form button {
+  display: block;
+  width: 9.6%;
+  padding: 7px 0;
+  margin-top: 4px;
+  font-size: 116%;
+  background: none;
+  color: #b22830;
+  border-radius: 5px;
+  border: 0.5px solid #b22830;
+}
+.lh-form button:hover {
+  background-color: #b22830;
+  color: white;
+}
+.mabaove {
+  float: left;
+  width: 100%;
+  margin-bottom: 1.5%;
+}
+.lh-lienhe {
+    margin-bottom: 5.5%;
+    float: left;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+  background-image: url('https://www.highlandscoffee.com.vn/vnt_upload/weblink/bg.png');
+}
+.lh-form i {
+  position: absolute;
+  top: 11px;
+  left: 9px;
+}
+.lh-input {
+  position: relative;
+}
+/* 
+VỀ CHÚNG TÔI
+ */
+ .vct-vechungtoi {
+   position: relative;
+ }
+ .vct-gt .vct-img {
+    display: inline-block;
+    width: 50%;
+    float: right;
+ }
+ .vct-gt {
+     float: left;
+     width: 100%;
+     position: relative;
+ }
+ .vct-gt h1 {
+    margin-top: 5%;
+    margin-left: 13%;
+ }
+ .vct-gt h1 a{
+    text-decoration: none;
+    font-size: 146%;
+    color: #53382C;
+ }
+ .vct-gt h6 {
+    font-size: 109%;
+    margin-left: 13%;
+    margin-top: -2%;
+ }
+ .vct-gt p {
+    margin-left: 13%;
+    margin-top: -2%;
+    font-size: 108%;
+    line-height: 23px;
+ }
+ .vct-gt button {
+    margin-left: 13%;
+    margin-top: 1%;
+    width: 35%;
+    font-size: 101%;
+    padding: 9px 0;
+    background: none;
+    color: #B22931;
+    border-radius: 5px;
+    border: 0.5px solid #B22931;
+ }
+ .vct-gt img {
+     width: 100%;
+     display: block;
+ }
+ .vct-vechungtoi .vct-right .vct-img {
+  float: left !important;
+}
+.vct-vechungtoi .vct-right .vct-noidung {
+  float: right;
+} 
+.vct-right h1 , .vct-right h6, .vct-right p ,.vct-right button  {
+     margin-right: 13%;
+     margin-left: 1% ;
+     color: white;
+ }
+ .vct-vechungtoi .vct-right .vct-text {
+  -webkit-mask-image: -webkit-gradient(linear, center top, 350 top, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+  background-color: #BD945D;
+  text-align: right;
+ } 
+ .vct-right a,.vct-left3 a,.vct-left3 h6, .vct-left3 p,.vct-left3 button {
+     color: white !important;
+ }
+ .vct-right h1 {
+     margin-top: 10%;
+ }
+ .vct-gt button:hover {
+  background-color:  #B22931 ;
+  color: white;
+  transition: 2s;
+ }
+ .vct-right button:hover,.vct-left3 button:hover {
+  background-color: white !important;
+  color:#B22931 !important;
+ }
+  .vct-right button ,.vct-left3 button{
+     border: 0.5px solid white;
+ }
+ .vct-vechungtoi .vct-left3 .vct-text {
+    background-color:#8E5A2D ; 
+ }
+.vct-gt .vct-text {
+  width: 100%;
+  position: absolute;
+  -webkit-mask-image: -webkit-gradient(linear, center top, 1000 top, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+    background-color: white;
+    height: 100%;
+}
+.vct-noidung {
+  width: 50%;
 }
