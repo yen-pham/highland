@@ -408,7 +408,7 @@ footer .btnlen {
   font-size: 155%;
   border-radius: 45px;
   padding: 15px;
-  border: 0.5px solid #878787;
+  border: 0.5px solid #878787 !important;
   color: #878787;
   background-color: white;
   bottom: 26%;
@@ -781,4 +781,222 @@ VỀ CHÚNG TÔI
 }
 .vct-noidung {
   width: 50%;
+}
+/* 
+CHI TIẾT THỰC ĐƠN
+*/
+.cttd-gt {
+  width: 50%;
+  margin-left: 6%;
+  float: left;
+}
+.cttd-gt h1 {
+  margin-top: 15%;
+    font-size: 300%;
+    color: #53382c;
+
+}
+.cttd-gt h6 {
+  font-size: 167%;
+    margin-top: 6%;
+    margin-bottom: 0%;
+    color: #53382c;
+
+}
+
+.cttd-gt p {
+  font-size: 110%;
+  color: #53382c;
+
+}
+.cttd-button {
+  float: right;
+  margin-top: 1%; }
+.cttd-trai , .cttd-phai {
+  float: left;
+  padding: 11px 14px;
+  border: none;
+  margin-left: 6px;
+}
+.cttd-button button:hover {
+  background-color: #B3282D;
+}
+
+.cttd-sanpham {
+  float: left;
+  width: 63%;
+}
+.cttd-show {
+  float: left;
+  margin-left: 10%;
+  padding-bottom: 3%;
+border-bottom: 0.5px solid #eeeeee;
+}
+.cttd-sp {
+  display: inline-block;
+    width: 30.5%;
+    float: left;
+    margin-right: 4.2%;
+    margin-top: 3%;
+}
+.cttd-sp img {
+  margin-top: 10%;
+    margin-left: 10%;
+    width: 80%;
+}
+.cttd-sp .cttd-gia {
+  margin-top: 10%;
+    text-align: center;
+}
+.cttd-gia a {
+  text-decoration: none;
+    font-size: 134%;
+    font-weight: 900;
+    color: #53382c;
+}
+.cttd-gia p {
+  margin-top: 5%;
+  font-size: 91%;
+}
+.cttd-sp .cttd-anh {
+  border: 0.5px solid #eeeeee;
+  padding-bottom: 11%;
+}
+.cttd-anh :hover img {
+  transform: scale(1.1, 1.1);
+  transition: ease-in-out 1s;
+}
+.cttd-spcuoi {
+  margin-right: 0 !important;
+}
+/* 
+CHI TIẾT SẢN PHẨM
+ */
+ .ctsp-sp {
+  float: left;
+    margin: 5% 0 0 6%;
+    width: 58.5%;
+ }
+ .ctsp-col3 {
+   display: inline-block;
+   width: 33.33%;
+   float: left;
+ }
+ .ctsp-sp h1 {
+  font-size: 235%; 
+  color: #53382c;
+
+ }
+ .ctsp-gt , .ctsp-sp strong {
+  color: #53382c;
+ }
+ .ctsp-anh img {
+  width: 96%;
+  float: left;
+  margin: 0;
+  border: 0.5px solid #eeeeee;
+ }
+ .ctsp-giohang {
+  border: 0.5px solid #eeeeee;
+  width: 30%;
+  margin-top: 12%;
+ }
+ .ctsp-dathang{
+   border-bottom:0.5px solid #eeeeee ;
+ }
+ .ctsp-dathang button {
+  margin: 14px 23px;
+  width: 88%;
+  padding: 10px 0;
+  background-color: #B22830;
+  color: white;
+  border: none;
+ }
+ .ctsp-spdd, .ctsp-cttien ,.ctsp-tongtien {
+  padding: 0 6%;
+  border-bottom: 0.5px solid #eeeeee;
+ }
+ .ctsp-spdd div {
+   display: inline-block;
+ }
+ .ctsp-sl button{
+  background-color: #B22830;
+  color: white;
+  border: none;
+ }
+ .ctsp-tsp{
+  display: inline-block;
+  width: 71%;
+  text-align: center;
+ }
+ .ctsp-tsp h6 {
+  font-size: 113%;
+  margin: 17px 0;
+ }
+ .ctsp-cttien {
+  padding: 2% 6%;
+    display: inline-block;
+    width: 88%;
+
+ }
+ .ctsp-cttien p {
+   display: inline-block;
+   margin: 2% 0;
+ }
+.ctsp-congr {
+  float: right;
+}
+.ctsp-uudai{
+  margin: 16px 0;
+}
+.ctsp-uudai input {
+  padding: 8px 9px;
+  width: 67%;
+  border: 2px solid #B22830;
+}
+.ctsp-uudai button {
+  padding: 10px 15px;
+    background-color: #B22830;
+    color: white;
+    border: none;
+}
+.ctsp-cttien strong {
+  font-size: 150%;
+}
+.ctsp-giohang button:hover {
+  opacity: 0.5;
+}
+.ctsp-gtsp {
+  float: left;
+  width: 100%;
+  padding-bottom: 3%;
+    border-bottom: 0.5px solid #eeeeee;
+}
+.ctsp-gtsp .ctsp-col2 {
+  width: 50%;
+  float: left;
+}
+.ctsp-chitiet .cttd-sanpham {
+  width: 100%;
+
+}
+.ctsp-chitiet .cttd-sanpham .cttd-show {
+  margin-left: 0;
+  width: 100%;
+}
+.ctsp-themgh button{
+  padding: 0px 0px;
+  font-size: 145%;
+  width: 40px;
+  border-radius: 5px;
+  border: 1px solid #B22830;
+  background: none;
+  color: #B22830;
+}
+.ctsp-themgh span {
+  margin: 0 11px;
+}
+.ctsp-themgh button:hover {
+  background-color:#B22830 ;
+  color: white;
 }
