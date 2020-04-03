@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="highland.css">
     <link href="https://fonts.googleapis.com/css?family=Caladea:400,400i,700,700i&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="highland.js"></script>
+
 </head>
 
 <body>
@@ -18,93 +20,127 @@
                 <img src="https://www.highlandscoffee.com.vn/vnt_upload/weblink/logo.svg" alt="">
             </div>
             <div class="search">
-                <div class="div_search"><input type="text" placeholder="Từ khóa"><img class="search_icon"
-                        src="https://www.highlandscoffee.com.vn/skins/default/images/i-search.svg" alt=""></div>
                 <div class="div_co">
                     <a href=""><img class="co" src="https://www.highlandscoffee.com.vn/vnt_upload/lang/flag-vn.jpg"
                             alt=""></a>
                     <a href=""><img class="co" src="https://www.highlandscoffee.com.vn/vnt_upload/lang/flag-en.jpg"
                             alt=""></a>
+                    <a href="#" id="menu"><i class="fa fa-bars" aria-hidden="true"></i>
+                    </a>
                 </div>
+                <div class="div_search"><input type="text" placeholder="Từ khóa"><img class="search_icon"
+                        src="https://www.highlandscoffee.com.vn/skins/default/images/i-search.svg" alt=""></div>
+
             </div>
-            <div class="list">
+            <div class="list" id="ctmenu">
+                <button class="btnX"><i class="fa fa-times" aria-hidden="true"></i>
+                </button>
                 <ul class="list_ul">
                     <li class="list_li"><a href="he-thong-cua-hang.html">QUÁN CÀ PHÊ</a>
 
                     </li>
-                    <li class="list_li"><a href="san-pham.html">THỰC ĐƠN</a>
+                    <li class="list_li header-drop">
+                        <a href="san-pham.html">THỰC ĐƠN </a>
+                        <a class="menuxt"><i class="fa fa-angle-right" aria-hidden="true"></i>
+                            <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+
 
                         <div class="an thucdon">
-                            <div class="col-2 caphe">
-                                <ul>
-                                    <li>
-                                        <h4> <a href="">CÀ PHÊ</a></h4>
-                                    </li>
-                                    <li><i class="fa fa-caret-right muiten" aria-hidden="true"></i><a href="">Cà Phê
+                            <div class="col-2 caphe xemthemtd">
+                                <div>
+                                    <h4 class="ctmenu-h4"> <a class="rp-cttd" href="">CÀ PHÊ</a>
+                                        <a class="menuxt2"><i class="fa fa-angle-right" aria-hidden="true"></i>
+                                            <i class="fa fa-angle-down" aria-hidden="true"></i></a></h4>
+
+                                </div>
+                                <ul class="menuxt2-show">
+
+                                    <li class="rp-an"><i class="fa fa-caret-right muiten" aria-hidden="true"></i><a class="rp-cttd"
+                                            href="">Cà Phê
                                             Phin</a></li>
-                                    <li><i class="fa fa-caret-right muiten" aria-hidden="true"></i><a href="">Cà Phê
+                                    <li class="rp-an"><i class="fa fa-caret-right muiten" aria-hidden="true"></i><a class="rp-cttd"
+                                            href="">Cà Phê
                                             Espresso</a></li>
                                 </ul>
                             </div>
-                            <div class="col-2">
+                            <div class="col-2 xemthemtd">
+                                <div>
+                                    <h4 class="ctmenu-h4"> <a class="rp-cttd" href="">FREEZE</a>
+                                        <a class="menuxt2"><i class="fa fa-angle-right" aria-hidden="true"></i><i
+                                                class="fa fa-angle-down" aria-hidden="true"></i></a></h4>
 
-                                <ul>
-                                    <li>
-                                        <h4> <a href="">FREEZE</a></h4>
-                                    </li>
-                                    <li><i class="fa fa-caret-right muiten" aria-hidden="true"></i><a href="">Freeze Cà
+                                </div>
+                                <ul class="menuxt2-show">
+
+
+                                    <li><i class="fa fa-caret-right muiten" aria-hidden="true"></i><a class="rp-cttd" href="">Freeze Cà
                                             Phê Phin</a></li>
-                                    <li><i class="fa fa-caret-right muiten" aria-hidden="true"></i><a href="">Freeze
+                                    <li><i class="fa fa-caret-right muiten" aria-hidden="true"></i><a class="rp-cttd" href="">Freeze
                                             Không Cà Phê </a></li>
                                 </ul>
                             </div>
-                            <div class="col-2">
-                                <ul>
-                                    <li>
-                                        <h4> <a href="">TRÀ</a> </h4>
-                                    </li>
-                                    <li><i class="fa fa-caret-right muiten" aria-hidden="true"></i><a href="">Trà Sen
+                            <div class="col-2 xemthemtd">
+                                <div>
+                                    <h4 class="ctmenu-h4"> <a class="rp-cttd" href="">TRÀ</a>
+                                        <a class="menuxt2"><i class="fa fa-angle-right" aria-hidden="true"></i><i
+                                                class="fa fa-angle-down" aria-hidden="true"></i></a></h4>
+
+                                </div>
+
+                                <ul class="menuxt2-show">
+
+
+                                    <li><i class="fa fa-caret-right muiten" aria-hidden="true"></i><a class="rp-cttd" href="">Trà Sen
                                             Vàng</a></li>
-                                    <li><i class="fa fa-caret-right muiten" aria-hidden="true"></i><a href="">Trà
+                                    <li><i class="fa fa-caret-right muiten" aria-hidden="true"></i><a class="rp-cttd" href="">Trà
                                             Thạch Đào</a></li>
-                                    <li><i class="fa fa-caret-right muiten" aria-hidden="true"></i><a href="">Trà Không
+                                    <li><i class="fa fa-caret-right muiten" aria-hidden="true"></i><a class="rp-cttd" href="">Trà Không
                                             Đào</a></li>
-                                    <li><i class="fa fa-caret-right muiten" aria-hidden="true"></i><a href="">Trà
+                                    <li><i class="fa fa-caret-right muiten" aria-hidden="true"></i><a class="rp-cttd" href="">Trà
                                             Thạch Vải</a></li>
                                 </ul>
                             </div>
-                            <div class="col-2">
+                            <div class="col-2 xemthemtd">
 
-                                <ul>
-                                    <li>
-                                        <h4> <a href="">BÁNH MÌ</a></h4>
-                                    </li>
-                                    <li><i class="fa fa-caret-right muiten" aria-hidden="true"></i><a href="">Thịt
+                                <div>
+                                    <h4 class="ctmenu-h4"> <a class="rp-cttd" href="">BÁNH MÌ</a>
+                                        <a class="menuxt2"><i class="fa fa-angle-right" aria-hidden="true"></i><i
+                                                class="fa fa-angle-down" aria-hidden="true"></i></a></h4>
+
+                                </div>
+
+                                <ul class="menuxt2-show">
+                                    <li><i class="fa fa-caret-right muiten" aria-hidden="true"></i><a class="rp-cttd" href="">Thịt
                                             Nướng</a></li>
-                                    <li><i class="fa fa-caret-right muiten" aria-hidden="true"></i><a href="">Xíu
+                                    <li><i class="fa fa-caret-right muiten" aria-hidden="true"></i><a class="rp-cttd" href="">Xíu
                                             Mại</a></li>
-                                    <li><i class="fa fa-caret-right muiten" aria-hidden="true"></i><a href="">Chả Lụa
+                                    <li><i class="fa fa-caret-right muiten" aria-hidden="true"></i><a class="rp-cttd" href="">Chả Lụa
                                             Xá Xíu</a></li>
-                                    <li><i class="fa fa-caret-right muiten" aria-hidden="true"></i><a href="">Gà Xé
+                                    <li><i class="fa fa-caret-right muiten" aria-hidden="true"></i><a class="rp-cttd" href="">Gà Xé
                                             Nước Tương</a></li>
                                 </ul>
                             </div>
-                            <div class="col-2">
-                                <ul>
-                                    <li>
-                                        <h4><a href="">KHÁC</a></h4>
-                                    </li>
-                                    <li><i class="fa fa-caret-right muiten" aria-hidden="true"></i><a href="">Bánh
+                            <div class="col-2 xemthemtd">
+                                <div>
+                                    <h4 class="ctmenu-h4"> <a class="rp-cttd" href="">KHÁC</a>
+                                        <a class="menuxt2"><i class="fa fa-angle-right" aria-hidden="true"></i><i
+                                                class="fa fa-angle-down" aria-hidden="true"></i></a></h4>
+
+                                </div>
+
+                                <ul class="menuxt2-show">
+
+                                    <li><i class="fa fa-caret-right muiten" aria-hidden="true"></i><a class="rp-cttd" href="">Bánh
                                             Ngọt</a></li>
-                                    <li><i class="fa fa-caret-right muiten" aria-hidden="true"></i><a
+                                    <li><i class="fa fa-caret-right muiten" aria-hidden="true"></i><a class="rp-cttd"
                                             href="">Merchandise</a></li>
-                                    <li><i class="fa fa-caret-right muiten" aria-hidden="true"></i><a href="">Cà Phê
+                                    <li><i class="fa fa-caret-right muiten" aria-hidden="true"></i><a class="rp-cttd" href="">Cà Phê
                                             Đóng Gói</a></li>
-                                    <li><i class="fa fa-caret-right muiten" aria-hidden="true"></i><a href="">Thực Đơn
+                                    <li><i class="fa fa-caret-right muiten" aria-hidden="true"></i><a class="rp-cttd" href="">Thực Đơn
                                             Giao Hàng</a></li>
                                 </ul>
                             </div>
-                            <div class="col-2 ">
+                            <div class="col-2 hinhanhgt">
                                 <div class="gt">
                                     <div><a href="">Phin Sữa Đá Đậm Đà Chất Phin! 29.000đ</a></div>
                                     <div class="anhcafe"><a href=""><img
@@ -116,16 +152,19 @@
 
                         </div>
                     </li>
-                    <li class="list_li"><a href="tin-tuc.html">TIN TỨC</a>
+                    <li class="list_li header-drop"><a href="tin-tuc.html">TIN TỨC</a>
+                        <a class="menuxt"><i class="fa fa-angle-right" aria-hidden="true"></i>
+                            <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+
                         <div class="an ">
-                            <div class="col-3 sukien">
-                                <h4><a href="">TIN TỨC & SỰ KIỆN</a></h4>
+                            <div class="col-3 sukien ">
+                                <h4><a class="rp-cttd" href="">TIN TỨC & SỰ KIỆN</a></h4>
 
                             </div>
-                            <div class="col-3">
-                                <h4><a href="">TIN KHUYẾN MÃI </a></h4>
+                            <div class="col-3 ">
+                                <h4><a class="rp-cttd" href="">TIN KHUYẾN MÃI </a></h4>
                             </div>
-                            <div class="col-3 tintuc">
+                            <div class="col-3 tintuc hinhanhgt">
                                 <div class="gt anh">
                                     <div><a href="">Tự hào sinh ra từ đất Việt, 1999!</a></div>
                                     <div class="anhtuhao"><a href=""><img
@@ -136,29 +175,41 @@
                             </div>
                         </div>
                     </li>
-                    <li class="list_li"><a href="trach-nhiem.html">TRÁCH NHIỆM CỘNG ĐỒNG</a>
+                    <li class="list_li header-drop"><a href="trach-nhiem.html">TRÁCH NHIỆM CỘNG ĐỒNG</a>
+                        <a class="menuxt"><i class="fa fa-angle-right" aria-hidden="true"></i>
+                            <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+
                         <div class="an ">
-                            <div class="col-3 col-2 sukien giatri">
-                                <ul>
-                                    <li>
-                                        <h4><a href="">GIÁ TRỊ VĂN HÓA VIỆT</a></h4>
-                                    </li>
-                                    <li><i class="fa fa-caret-right muiten" aria-hidden="true"></i><a href="">Đương Đại
+                            <div class="col-3 col-2 sukien giatri xemthemtd">
+                                <div>
+                                    <h4 class="ctmenu-h4"> <a class="rp-cttd" href="">GIÁ TRỊ VĂN HÓA VIỆT</a>
+                                        <a class="menuxt2"><i class="fa fa-angle-right" aria-hidden="true"></i>
+                                            <i class="fa fa-angle-down" aria-hidden="true"></i></a></h4>
+
+                                </div>
+                                <ul class="menuxt2-show">
+                                    <li><i class="fa fa-caret-right muiten" aria-hidden="true"></i><a class="rp-cttd" href="">Đương Đại
                                             Hóa Tranh Hồ </a></li>
 
                                 </ul>
                             </div>
-                            <div class="col-3 col-2">
-                                <ul>
-                                    <li>
-                                        <h4><a href="">CỘNG ĐỒNG</a></h4>
+                            <div class="col-3 col-2 xemthemtd ">
+                                <div>
+                                    <h4 class="ctmenu-h4"> <a class="rp-cttd" href="">CỘNG ĐỒNG</a>
+                                        <a class="menuxt2"><i class="fa fa-angle-right" aria-hidden="true"></i>
+                                            <i class="fa fa-angle-down" aria-hidden="true"></i></a></h4>
+
+                                </div>
+                                <ul class="menuxt2-show">
+                                    
+                                    <li> 
+                                        <i class="fa fa-caret-right muiten" aria-hidden="true"></i><a class="rp-cttd" href="">Lớp Học
+                                            Cho Em </a>
                                     </li>
-                                    <li><i class="fa fa-caret-right muiten" aria-hidden="true"></i><a href="">Lớp Học
-                                            Cho Em </a></li>
 
                                 </ul>
                             </div>
-                            <div class="col-3 tintuc">
+                            <div class="col-3 tintuc hinhanhgt ">
                                 <div class="gt anh">
                                     <div><a href="">Đương Đại Hóa Tranh Đông Hồ</a></div>
                                     <div class="anhtuhao"><a href=""><img
@@ -169,19 +220,22 @@
                             </div>
                         </div>
                     </li>
-                    <li class="list_li"><a href="ve-chung-toi.html">VỀ CHÚNG TÔI</a>
+                    <li class="list_li header-drop"><a href="ve-chung-toi.html">VỀ CHÚNG TÔI</a>
+                        <a class="menuxt"><i class="fa fa-angle-right" aria-hidden="true"></i>
+                            <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+
                         <div class="an ">
-                            <div class="col-3 sukien">
-                                <h4><a href="">KHỞI NGUỒN</a></h4>
+                            <div class="col-3 sukien ">
+                                <h4><a class="rp-cttd" href="">KHỞI NGUỒN</a></h4>
 
                             </div>
-                            <div class="col-3">
-                                <h4><a href="">DỊCH VỤ KHÁCH HÀNG </a></h4>
+                            <div class="col-3 ">
+                                <h4><a class="rp-cttd" href="">DỊCH VỤ KHÁCH HÀNG </a></h4>
                             </div>
-                            <div class="col-3">
-                                <h4><a href="">NGHỀ NGHIỆP </a></h4>
+                            <div class="col-3 ">
+                                <h4><a class="rp-cttd" href="">NGHỀ NGHIỆP </a></h4>
                             </div>
-                            <div class="col-3 tintuc">
+                            <div class="col-3 tintuc hinhanhgt">
                                 <div class="gt anh">
                                     <div><a href="">Thương hiệu bắt nguồn từ cà phê Việt!</a></div>
                                     <div class="anhtuhao"><a href=""><img
@@ -193,26 +247,31 @@
                         </div>
                     </li>
                     <li class="list_li"><a href="lien-he.html">LIÊN HỆ</a></li>
-
+                    <li class="list_li rpsearch"> <div class="div_search"><input type="text" placeholder="Từ khóa"><img class="search_icon"
+                        src="https://www.highlandscoffee.com.vn/skins/default/images/i-search.svg" alt=""></div></li>
                 </ul>
             </div>
         </nav>
+    </header>
+    <div class="content">
         <div class="anh">
             <img src="https://www.highlandscoffee.com.vn/vnt_upload/weblink/HCO-7605-FESTIVE-2020-WEB-FB-2000X639.jpg"
                 alt="">
         </div>
-    </header>
-    <div>
-        <div class="anh"><img
+        <div class="anh">
+            <a href=""><img
                 src="https://www.highlandscoffee.com.vn/vnt_upload/weblink/HCO-7548-PHIN-SUA-DA-2019-TALENT-WEB_1.jpg"
-                alt="">
+                alt=""></a>
             <button>KHÁM PHÁ THÊM</button></div>
-        <section class="anh anh2"><img
+        <section class="anh anh2">
+            <a href=""><img
                 src="https://www.highlandscoffee.com.vn/vnt_upload/weblink/Product_banner_confirmed.jpg" alt="">
-            <button>KHÁM PHÁ THÊM</button></section>
-        <section class="anh anh3"><img
+           </a> 
+           <button>KHÁM PHÁ THÊM</button></section>
+        <section class="anh anh3">
+            <a href=""><img
                 src="https://www.highlandscoffee.com.vn/vnt_upload/weblink/HCO-7605-FESTIVE-2020-WEB-FB-2000X639_1.png"
-                alt="">
+                alt=""></a>
             <button>KHÁM PHÁ THÊM</button></section>
         <div class="quan">
             <div class="gioithieu gt1">
@@ -226,9 +285,11 @@
             </div>
             <div class="gioithieu gt2">
                 <div class="tinmoi">
-
-                    <h2>TIN MỚI NHẤT</h2>
+                    <div class="title-timoi">
+                          <h2>TIN MỚI NHẤT</h2>
                     <a href="" class="xemtb">Xem toàn bộ <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                  
+                    </div>
                     <div class="tin">
                         <div class="tinmoi1">
                             <a href=""><img
@@ -240,7 +301,7 @@
                             <p><i class="fa fa-calendar-o" aria-hidden="true"></i>04/12/2019</p>
                         </div>
                     </div>
-                    <div class="tin">
+                    <div class="tin tin1">
                         <div class="tinmoi1">
                             <a href=""><img
                                     src="https://www.highlandscoffee.com.vn/vnt_upload/news/10_2019/hco-7598-20-years-concert-web-470x314_1.jpg"
@@ -250,7 +311,7 @@
                             <a href="">ĐẠI TIỆC ÂM NHẠC: HIGHLANDS COFFEE 20 NĂM - GẮN KẾT NIỀM TỰ HÀO ĐẤT VIỆT</a>
                             <p><i class="fa fa-calendar-o" aria-hidden="true"></i>28/10/2019</p> </div>
                     </div>
-                    <div class="tin">
+                    <div class="tin tin1">
                         <div class="tinmoi1">
                             <a href=""><img
                                     src="https://www.highlandscoffee.com.vn/vnt_upload/news/10_2019/HCO-7598-20-YEARS-NEWS-BANNER-NEWS-470X314.jpg"
@@ -274,16 +335,25 @@
     <footer>
         <div>
             <ul>
-                <li>
-                    <ul><li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li class="veiwmap">
+                    <div>
+                         <a href=""><i class="fa fa-map-marker" aria-hidden="true"></i>VIEW MAP</a>
+
+                    </div>
+                </li>
+                <li class="footer-icon">
+                    <ul>
+                        <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                         <li><a href=""><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
                         <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                     </ul>
                 </li>
-                <li class="tt"><span>© 2018 Highlands Coffee. All rights reserved</span></li>
-                <li class="tt"><a href=""><i class="fa fa-paper-plane-o" aria-hidden="true"></i><pre> </pre>Đăng ký để nhận bản tin
-                </a></li>
-                <li class="tt"><a href=""><i class="fa fa-envelope-o" aria-hidden="true"></i><pre> </pre>customerservice@highlandscoffee.com.vn</a></li>
+                <li class="tt tt-2"><span>© 2018 Highlands Coffee. All rights reserved</span></li>
+                <li class="tt"><a href=""><i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                        <pre> </pre>Đăng ký để nhận bản tin
+                    </a></li>
+                <li class="tt"><a href=""><i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        <pre> </pre>customerservice@highlandscoffee.com.vn</a></li>
 
 
             </ul>
