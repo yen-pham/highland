@@ -515,11 +515,12 @@ footer .btnlen {
   font-size: 127%;
   margin-top: -1.5%;
   margin-left: 13%;
+  margin-bottom: 3%;
 }
 .sp-caphe div {
   width: 50%;
   display: inline-block;
-  float: left;
+  float: right;
 }
 .sp-caphe img {
   margin-left: 22%;
@@ -545,7 +546,7 @@ footer .btnlen {
 }
 .sp-caphe1 div,
 .sp-caphe3 div {
-  float: right;
+  float: left;
 }
 .sp-caphe1 div a,
 .sp-caphe1 div h6,
@@ -600,7 +601,7 @@ TIN TỨC
   width: 30.4%;
   display: inline-block;
   float: left;
-  margin: 0 16px;
+  margin: 0 2%;
 }
 .tt-tintuc {
   float: left;
@@ -634,7 +635,8 @@ TIN TỨC
   margin-right: 8px;
 }
 .tt-a {
-  height: 36px;
+  height: 33px;
+  overflow: hidden;
 }
 .tt-col4 p {
   margin-bottom: 27px;
@@ -660,7 +662,10 @@ TIN TỨC
 }
 .tt-img {
   overflow: hidden;
-  height: 250px;
+  /* height: 250px; */
+}
+.tt-3col {
+  display: flex;
 }
 /* 
 LIÊN HỆ 
@@ -1705,10 +1710,11 @@ header {
 /* footer {
   display: none;
 } */
-.rpsearch {
+.list_ul .rpsearch {
   width: 100%;
   display: block;
 }
+.div_search {width: 100%;}
 .list_li .div_search input  {
   width: 81%;
   padding: 3% 4%;
@@ -1776,8 +1782,110 @@ header {
 .anh button {
   display: none;
 }
+/* ve chung toi */
+.vct-gt .vct-text {
+  position: unset;
+  -webkit-mask-image: none;
+  padding-bottom: 5%;
 
 
+}
+.vct-noidung {
+  display: block;
+  width: 90%;
+}
+.vct-gt .vct-img {
+  width: 100%;
+}
+.vct-vechungtoi .vct-right .vct-text {
+  -webkit-mask-image: none;
+  background-color: #BD945D;
+  text-align: right;
+  float: right;
+}
+.vct-vechungtoi .vct-left3 .vct-text {
+  float: left;
+}
+/* trach nhiem */
+.tt-3col {
+  display: block;
+}
+/* Tin tuc */
+.tt-col4 {
+  width: 45%;
+}
+/* san pham */
+.sp-caphe .sp-text {
+  float: right;
+  padding-bottom: 4%;
+    display: block;
+    width: 100%;
+    font-size: 75%;
+    background-image: url(https://www.highlandscoffee.com.vn/vnt_upload/product/04_2018/menu-PSD-bg.jpg);
+    background-position-x: 63%;
+
+}
+.sp-caphe .sp-img  {
+  float: right;
+  background-image: url(https://www.highlandscoffee.com.vn/vnt_upload/product/04_2018/menu-PSD-bg.jpg);
+
+  display: block;
+    width: 100%;
+    background-position-x: 47%;
+    background-position-y: 100%;
+    background-size: 400%;
+}
+.sp-caphe1 .sp-text ,.sp-caphe1 .sp-img {
+  background-image: url("https://www.highlandscoffee.com.vn/vnt_upload/product/04_2018/menu-FREEZE.jpg");
+}
+.sp-caphe2 .sp-text ,.sp-caphe2 .sp-img {
+  background-image: url("https://www.highlandscoffee.com.vn/vnt_upload/product/04_2018/menu-TEA-bg.jpg");
+}
+.sp-caphe3 .sp-text ,.sp-caphe3 .sp-img{
+  background-image: url("https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/menu-BANHMI-bg_2.jpg");
+}
+/* lien he */
+#hoten, #email, #noidung {
+  width: 75%;
+}
+ #mabaove {
+   width: 58%;
+ }
+ .lh-lienhe {
+   background: none;
+ }
+ /* ca phe */
+ .cp-caphep-l , .cp-caphep-r {
+  display: block;
+  width: 100%;
+ }
+ .cp-caphep-gt {
+   margin-left: 0;
+ }
+ /* chi tiet san pham */
+ .ctsp-chitiet {
+  float: left;
+  width: 100%;
+ }
+ .ctsp-sp {
+  width: 90%;
+  display: block;
+ }
+ .ctsp-giohang {
+  width: 90%;
+  margin: 5% 5%;
+ }
+ /* chi tiet ve chung toi */
+ .ctvct-mo{
+  background: none;
+ }
+ .ctvct-gt {
+  width: 97%;
+ }
+ .ctvct-gy {
+  width: 94%;
+  margin-bottom: 5%;
+ }
 
 }
 @media only screen and (min-width:800px )and ( max-width:1100px){
@@ -1789,6 +1897,29 @@ header {
   header {
     height: 145px;
   }
+  /* san pham */
+  .sp-caphe h6 {
+    margin-bottom: 3%;
+    font-size: 100%;
+  }
+  .sp-caphe h1 {
+    font-size: 125%;
+  }
+  /* lien he */
+  /* lien he */
+#hoten, #email, #noidung {
+  width: 75%;
+}
+ #mabaove {
+   width: 58%;
+ }
+ .lh-lienhe {
+   background: none;
+ }
+ /* chi tiet ve chung toi */
+ .ctvct-gy1 div{
+  font-size: 180%;
+}
 }
 @media only screen and (max-width:450px) {
   .btnX {
@@ -1803,9 +1934,7 @@ header {
   .list_li a {
     font-size: 70%;
   }
-  header {
-
-  }
+  
   
 }
 
