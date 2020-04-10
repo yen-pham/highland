@@ -1886,6 +1886,33 @@ header {
   width: 94%;
   margin-bottom: 5%;
  }
+ /* chi tiet tin tuc */
+ .cttt-csbutton .cttt-szalo {
+  display: block;
+  float: none;
+  margin-top: 41px;
+  width: 115px;
+  padding: 7px;
+ }
+ .cttt-csbutton .cttt-szalo a{
+  float: none;
+ }
+ .cttt-csbutton .cttt-in {
+   display: none;
+ }
+ .cttt-themcmt {
+  display: flex;
+ }
+ .cttt-input {
+   display: flex;
+ }
+ /* chi tiet thuc don */
+ .cttd-gt {
+  width: 88%;
+ }
+ .cttd-sanpham {
+  width: 92%;
+ }
 
 }
 @media only screen and (min-width:800px )and ( max-width:1100px){

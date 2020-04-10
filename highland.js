@@ -87,8 +87,23 @@ console.log(item.getElementsByClassName('menuxt2')[0]);
     })
     })
 
+    //  SLIDESHOW
 
-  
+ var slideList = document.getElementsByClassName("slide");
+ var slideShow = 0; 
+function showSlide(index) {
+  for (let i=0; i<slideList.length; i++) {
+    slideList[i].style.display= 'none';
+  }
+  slideList[index].style.display = 'block';
+}
+setInterval(function show() { 
+  showSlide(slideShow);
+  slideShow ++;
+  if(slideShow== slideList.length) slideShow =0; 
+ 
+}, 3000)
+ 
   
  
 
